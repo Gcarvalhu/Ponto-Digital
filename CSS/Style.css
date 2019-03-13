@@ -89,7 +89,43 @@ nav a:hover {
 .zezinho input{
 height: 30px;
 width: 98%;
+display: flex;
 }
-#texto-da-home{
-
+.texto-da-home{
+background-color: #3ca4c6;
+width: 60%;
+margin-top:70px;
+margin-bottom: 50px;
+display: flex;
+font-size: 23px;
 }
+.foto-da-home{
+height: 400px;
+margin-top: 40px;
+display: flex;
+}
+.section1{
+  display: flex;
+}
+.fundo-cadastro{
+    background-color: #fff;
+}
+#cadastro_box{
+    width:500px;
+    height: 440px;
+    background-color:rgb(207, 206, 206);
+    margin: 0 auto;
+    border-radius: 10px; 
+}
+#rodape{
+    background-color:rgb(0, 162, 255);
+}
+ #rodape>a{
+    text-decoration: none;
+    font-family: 'calibri';
+ }
+ #rodape{
+     font-style: normal;
+     text-align: center;
+     color:#000;
+ }
