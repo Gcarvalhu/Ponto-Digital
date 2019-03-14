@@ -110,13 +110,7 @@ display: flex;
 .fundo-cadastro{
     background-color: #fff;
 }
-#cadastro_box{
-    width:500px;
-    height: 440px;
-    background-color:rgb(207, 206, 206);
-    margin: 0 auto;
-    border-radius: 10px; 
-}
+
 #rodape{
     background-color:rgb(0, 162, 255);
 }
@@ -128,4 +122,46 @@ display: flex;
      font-style: normal;
      text-align: center;
      color:#000;
+ }
+ .beneficios{
+     display: flex;
+     background-color: rgb(226, 226, 226);
+ }
+ .texto-beneficios{
+     display: block;
+     text-align: center;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     margin-top: 50px;
+ }
+ .imagem-benef{
+     display: flex;
+     flex-direction: column;
+     width: 350px;
+     justify-content: center;
+     align-items: center;
+ }
+ .imagem-benef2{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+ }
+ .texto-benef2{
+    display: block;
+    text-align: center;
+   flex-direction: column;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 50px;
+ }
+ .mapa{
+     justify-content: center;
+     display: flex;
+ }
+ .desenvolvedores{
+     display: flex;
+ }
+ .desenvolvedores>h2{
+     text-align: center;
  }
